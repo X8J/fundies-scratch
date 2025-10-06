@@ -21,7 +21,7 @@ rotate(45, rectangle(100, 20, "solid", "red"))
 
 # The code below will create a stop sign
 rbg = regular-polygon(40, 6, "solid", "red")
-rpo = regular-polygon(50, 6, "outline", "black")
+rpo = regular-polygon(45, 6, "outline", "black")
 sign = text("STOP", 24, "White")
 
 sign2 = overlay(rbg, rpo)
@@ -29,3 +29,5 @@ sign2 = overlay(rbg, rpo)
 overlay(sign,sign2)
 
 
+orange-triangle = triangle(50, "solid", "orange")
+orange-triangle
